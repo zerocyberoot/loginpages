@@ -1,0 +1,47 @@
+|</Cara menghapus Di termux (android)>
+|
+|1.jalankan perintah tersebut
+|-------------------------------------------------
+ $ vim /data/data/com.termux/files/usr/etc/profile
+|-------------------------------------------------
+|2.tekan huruf "i" untuk mengedit
+|
+|3.Hapus Script yang anda buat example :
+|-------------------------------------------------
+ clear
+ echo
+ echo -e  '\033[01;32m'
+ python2 .login.py
+ echo -e  '\033[01;33m'
+ figlet WELCOM3
+ sleep 1
+|-------------------------------------------------
+|4.Tampilkan tombol esc dengan cara tekan Volume up + Q secara bersamaan
+|
+|5.Tekan esc dan ketik :wq untuk menyimpan script
+|
+|6.Tutup/Exit Termux dan jalankan kembali
+|
+|7.Berhasil:)
+|
+|</Cara hapus Di CYGWIN (windows)>
+|
+|1.jalankan perintah tersebut (satu persatu)
+|
+|2.buka file dan edit file dengan .bashrc notepad tempatnya di 
+|C:\cygwin64\home\namauseranda\.bashrc
+|
+|3.Hapus script yang anda buat example (letaknya paling bawah) :
+|-------------------------------------------------------
+ clear
+ echo
+ python2 .login.py
+ echo -e  '\033[01;32m'
+ figlet WELCOM3
+ sleep 1
+|-------------------------------------------------------
+|4.save scriptnya
+|
+|5.Tutup/Exit CYGWIN dan jalankan kembali
+|
+|6.berhasil:)

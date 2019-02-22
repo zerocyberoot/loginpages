@@ -1,0 +1,57 @@
+|</Cara pakai Di termux (android)>
+|
+|1.jalankan perintah tersebut (satu persatu)
+|-------------------------------------------------
+ $ pkg install vim (untuk yang belum install)
+ $ pkg install python (untuk yang belum install)
+ $ pkg install python2 (untuk yang belum install)
+ $ vim /data/data/com.termux/files/usr/etc/profile
+|-------------------------------------------------
+|2.tekan huruf "i" untuk mengedit
+|
+|3.CoPas Script ini ke yang paling bawah :
+|-------------------------------------------------
+ clear
+ echo
+ echo -e  '\033[01;32m'
+ python2 .login.py
+ echo -e  '\033[01;33m'
+ figlet WELCOM3
+ sleep 1
+|-------------------------------------------------
+|4.Tampilkan tombol esc dengan cara tekan Volume up + Q secara bersamaan
+|
+|5.Tekan esc dan ketik :wq untuk menyimpan script
+|
+|6.Tutup/Exit Termux dan jalankan kembali
+|
+|7.Berhasil:)
+|
+|</Cara pakai Di CYGWIN (windows)>
+|
+|1.jalankan perintah tersebut (satu persatu)
+|-------------------------------------------------------
+ $ cd logintool
+ $ wget rawgit.com/transcode-open/apt-cyg/master/apt-cyg
+ $ install apt-cyg /bin
+ $ apt-cyg install python (untuk yang belum install)
+ $ apt-cyg install python2 (untuk yang belum install)
+|-------------------------------------------------------
+|
+|2.buka file dan edit file .bashrc dengan notepad tempatnya di 
+|C:\cygwin64\home\namauseranda\.bashrc
+|
+|3.CoPas script ini ke yang paling bawah :
+|-------------------------------------------------------
+ clear
+ echo
+ python2 .login.py
+ echo -e  '\033[01;32m'
+ figlet WELCOM3
+ sleep 1
+|-------------------------------------------------------
+|4.save scriptnya
+|
+|5.Tutup/Exit CYGWIN dan jalankan kembali
+|
+|6.berhasil:)
