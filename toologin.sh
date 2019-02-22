@@ -3,7 +3,7 @@
 #Z3R0_CYB3R/3D0_CHU11
 #tampilanawal (luu recoder,ngk akan jadiin luu master)
 clear
-cd menu
+cd .menu
 blue='\033[34;1m'
 green='\033[32;1m'  
 purple='\033[35;1m'
