@@ -1,6 +1,6 @@
 #!/system/xbin/bash
 #assalamualaikum WR.WB | ©copyright 2019 edochuii
-#3D0_CHU11
+#Z3R0_CYB3R/3D0_CHU11
 #tampilanawal (luu recoder,ngk akan jadiin luu master)
 clear
 cd menu
@@ -19,7 +19,7 @@ echo -e "\033[37;1m{+}\033[32;1m----------------------------------------------\0
 echo -e "\033[32;1m | \033[32;1mMader  : 3D0_CHU11/\033[33;1mZ3R0_CYB3R                  \033[32;1m|"                            
 echo -e "\033[32;1m | \033[31;1mKontak : +62895627525979/\033[36;1mzerocyberofficeall    \033[32;1m|"
 echo -e "\033[32;1m | \033[34;1mTeam   : \033[33;1mTH3_TROUBL3_MAK3R                     \033[32;1m|"         
-echo -e "\033[32;1m | \033[36;1mThanks : zerocybersquad \033[31;1m- \033[32;1mTEKAJE 1 Friend \033[32;1m|"
+echo -e "\033[32;1m | \033[36;1mThanks : zerocybersquad \033[31;1m- \033[32;1mTEKAJE 1 Friend \033[32;1m     |"
 echo -e "\033[37;1m{+}\033[32;1m----------------------------------------------\033[37;1m{+}"
 echo -e $yellow"{?}             (: SILAHKAN PILIH :)             {?}"
 echo -e "\033[37;1m{+}\033[32;1m----------------------\033[37;1m{+}\033[32;1m---------------------\033[37;1m{+}"
